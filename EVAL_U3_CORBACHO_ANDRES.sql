@@ -1,5 +1,5 @@
 -- ESTUDIANTE: ANDRES CORBACHO MOYA  // 2021-10-07 // se incorporan comentarios para hacer mas entendible la consulta
--- CONSULTA 1
+-- CONSULTA 1 
 select
     numrut_cli ||'-'|| dvrut_cli as "RUT CLIENTE", nombre_cli ||' '|| appaterno_cli ||' '|| apmaterno_cli as "NOMBRE CLIENTE",  -- se concatenan los campos rut, nombre, apellido paterno y apellido materno
     renta_cli as "RENTA",                                                       -- se muestra el campo renta
